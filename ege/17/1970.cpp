@@ -1,19 +1,18 @@
 #include <iostream>
-#include <algorithm>
 #include <vector>
 #include <fstream>
 
 using namespace std;
 
 int main() {
-    ifstream fin("/home/handelluss/Desktop/17.txt");
+    ifstream fin("17.txt");
     int tmp;
     vector<int> a;
 
     while (fin >> tmp) {
         a.push_back(tmp);
     }
-    /* ДРУГОЙ ВАРИАНТ РЕШЕНИЯ, для этого необходимо посмотреть, сколько в текстовом файле чисел ручками
+    /* ДРУГОЙ ВАРИАНТ ИНИЦИАЛИЗАЦИИ ВЕКТОРА, для этого необходимо посмотреть, сколько в текстовом файле чисел ручками
         for(int i = 0; i < 5000; i++) {
             fin >> tmp; a.push_back(tmp);
         }
