@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    ifstream fin("/home/handelluss/Dev/TeachingCPP/26.txt");
+    ifstream fin("26.txt");
     int n, k, m;
     fin >> n >> k >> m;
     vector<int> prices(n);
