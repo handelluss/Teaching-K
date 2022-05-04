@@ -35,8 +35,4 @@ int main()
     cout << old_power(a, n) << endl << endl; // через линейный рекурсивный алгоритм: O(n)
 
     cout << power(a, n) << endl; // через быстрое возведение в степень: О(log(n))
-
-
-
 }
-
